@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F2214C452D292BD000F3DBBD /* KKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = F2214C442D292BD000F3DBBD /* KKit.docc */; };
 		F2214C462D292BD000F3DBBD /* KKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F2214C432D292BD000F3DBBD /* KKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2214C4E2D292DBB00F3DBBD /* KPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = F2214C4C2D292DBB00F3DBBD /* KPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2214C4F2D292DBB00F3DBBD /* KPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F2214C4D2D292DBB00F3DBBD /* KPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2214C402D292BD000F3DBBD /* KKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2214C432D292BD000F3DBBD /* KKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKit.h; sourceTree = "<group>"; };
 		F2214C442D292BD000F3DBBD /* KKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KKit.docc; sourceTree = "<group>"; };
+		F2214C4C2D292DBB00F3DBBD /* KPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPerson.h; sourceTree = "<group>"; };
+		F2214C4D2D292DBB00F3DBBD /* KPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				F2214C432D292BD000F3DBBD /* KKit.h */,
+				F2214C4C2D292DBB00F3DBBD /* KPerson.h */,
+				F2214C4D2D292DBB00F3DBBD /* KPerson.m */,
 				F2214C442D292BD000F3DBBD /* KKit.docc */,
 			);
 			path = KKit;
@@ -61,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2214C462D292BD000F3DBBD /* KKit.h in Headers */,
+				F2214C4E2D292DBB00F3DBBD /* KPerson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +99,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = K;
 				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = kotercy;
 				TargetAttributes = {
 					F2214C3F2D292BD000F3DBBD = {
 						CreatedOnToolsVersion = 15.3;
@@ -132,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2214C4F2D292DBB00F3DBBD /* KPerson.m in Sources */,
 				F2214C452D292BD000F3DBBD /* KKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
